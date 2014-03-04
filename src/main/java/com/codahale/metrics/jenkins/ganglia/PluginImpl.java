@@ -57,9 +57,6 @@ public class PluginImpl extends Plugin {
             reporters = new LinkedHashMap<GangliaServer, GangliaReporter>();
         }
         MetricRegistry registry = Metrics.metricRegistry();
-        if (registry == null) {
-            return;
-        }
         GangliaServer.DescriptorImpl descriptor =
                 Jenkins.getInstance().getDescriptorByType(GangliaServer.DescriptorImpl.class);
         if (descriptor == null) {

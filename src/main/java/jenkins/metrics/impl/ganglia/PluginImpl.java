@@ -1,9 +1,9 @@
-package com.codahale.metrics.jenkins.ganglia;
+package jenkins.metrics.impl.ganglia;
 
 import com.codahale.metrics.MetricFilter;
 import com.codahale.metrics.MetricRegistry;
 import com.codahale.metrics.ganglia.GangliaReporter;
-import com.codahale.metrics.jenkins.Metrics;
+import jenkins.metrics.api.Metrics;
 import hudson.Plugin;
 import info.ganglia.gmetric4j.gmetric.GMetric;
 import jenkins.model.Jenkins;

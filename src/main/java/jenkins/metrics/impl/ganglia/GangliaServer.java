@@ -1,4 +1,4 @@
-package com.codahale.metrics.jenkins.ganglia;
+package jenkins.metrics.impl.ganglia;
 
 import hudson.Extension;
 import hudson.model.AbstractDescribableImpl;

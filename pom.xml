@@ -33,7 +33,7 @@
   </parent>
 
   <artifactId>metrics-ganglia</artifactId>
-  <version>3.0.0-SNAPSHOT</version>
+  <version>3.0.0</version>
   <packaging>hpi</packaging>
 
   <name>Metrics Ganglia Reporting Plugin</name>
@@ -64,7 +64,7 @@
     <connection>scm:git:git://github.com/jenkinsci/metrics-ganglia-plugin.git</connection>
     <developerConnection>scm:git:git@github.com:jenkinsci/metrics-ganglia-plugin.git</developerConnection>
     <url>http://github.com/jenkinsci/metrics-ganglia-plugin</url>
-    <tag>HEAD</tag>
+    <tag>metrics-ganglia-3.0.0</tag>
   </scm>
 
   <properties>
